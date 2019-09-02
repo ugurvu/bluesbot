@@ -114,7 +114,7 @@ live_loop :solo do
   s = S.choose
   
   with_fx :distortion, distort: 0.9, amp: 0.4 do
-    with_synth :beep do
+    with_synth :pluck do
       p = phrases.choose
       
       if p == -1 then
