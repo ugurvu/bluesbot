@@ -154,7 +154,7 @@ end
 live_loop :chords do
   sync :bar
   c = blues[i]
-  with_synth :piano do
+  with_synth :blade do
     if (i+1) % blues.length == 0 then
       play chords[c]
     elsif (i+1) % 4 == 0 then
